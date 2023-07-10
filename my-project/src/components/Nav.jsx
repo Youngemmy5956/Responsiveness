@@ -7,16 +7,16 @@ export default function Nav() {
   let [open, setOpen] = useState(false);
   return (
     <div  onClick={() => setOpen(!open)}
-    className="text-3xl top-6 cursor-pointer">
+    className="text-3xl top-0 cursor-pointer sticky z-50 bg-slate-50">
 
 <span>
           <img src={logo} alt="" className="mt-4 pl-6 md:lg:hidden"/>
         </span>
       <AiOutlineMenu name={open ? "close" : "menu"} onClick={() => setOpen(!close)} className="md:lg:hidden ml-[90%]"/>
-      <section className={`pb-12 absolute text-white md:lg:bg-white md:static md:z-0 z-[50] left-0 w-full md:w-auto  transition-all duration-500 ease-in ${
+      <section className={`pb-12 absolute bg-slate-50 text-white md:lg:bg-white md:static md:z-0 z-[50] left-0 w-full md:w-auto  transition-all duration-500 ease-in ${
             open ? "top-0 opacity-100" : "top-[-490px]"
           } md:opacity-100 text-center `} >
-      <header className="py-6 md:lg:flex md:lg:justify-between pl-20 shadow-md rounded-xl ">
+      <header className="py-2 md:lg:flex md:lg:justify-between pl-20 shadow-md rounded-xl sticky top-0 z-50  ">
       <span>
           <img src={logo} alt="" className=""/>
         </span>
