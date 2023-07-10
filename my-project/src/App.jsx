@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import logo from "../src/assets/Group 1707477972.svg";
 import Nav from "./components/Nav";
 import "./App.css";
+import Contact from "./components/Contact";
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -27,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/page" element={<Page />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
       )}
