@@ -69,15 +69,15 @@ export default function Page() {
 
         </span>
 
-        <span className="md:lg:flex gap-8 mt-10">
-          <span className="gap-6 md:lg:flex md:lg:flex-col">
-            <img src={rec} alt="" className="w-full px-4 pt-2"/>
-            <img src={rec1} alt="" className="w-full px-4 pt-4" />
+        <span className="md:lg:flex gap-4 mt-10">
+          <span className="gap-2 md:lg:flex md:lg:flex-col">
+            <img src={rec} alt="" className="w-full h-full px-4 pt-2"/>
+            <img src={rec1} alt="" className="w-full h-full px-4 pt-4" />
           </span>
 
-          <span className="gap-6 md:lg:flex md:lg:flex-col">
-            <img src={rec2} alt=""  className="w-full px-4 pt-4" />
-            <img src={rec3} alt=""  className="w-full px-4 pt-4"/>
+          <span className="gap-2 md:lg:flex md:lg:flex-col">
+            <img src={rec2} alt=""  className="w-full h-full px-4 pt-4" />
+            <img src={rec3} alt=""  className="w-full h-full px-4 pt-4"/>
           </span>
         </span>
       </section>
