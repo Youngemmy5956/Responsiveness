@@ -16,6 +16,20 @@ import rec18 from "../assets/Group 16.svg";
 import rec8 from "../assets/Rectangle 37.svg";
 import rec10 from "../assets/Rectangle 38.svg";
 import rec9 from "../assets/Rectangle 39.svg";
+import rec11 from "../assets/Ellipse 15.svg";
+import rec14 from "../assets/Frame.svg";
+import rec12 from "../assets/Ellipse 17.svg";
+import rec13 from "../assets/Ellipse 16.svg";
+import { BiPhoneCall } from "react-icons/bi";
+import { AiOutlineMail } from "react-icons/ai";
+import { CiLocationOn } from "react-icons/ci";
+import rec19 from "../assets/LearnUp (1).svg";
+import rec20 from "../assets/Group 1 (1).svg";
+import rec21 from "../assets/Group 2 (1).svg";
+import rec22 from "../assets/Group 32 (1).svg";
+import rec23 from "../assets/Group 4 (1).svg";
+
+
 
 
 export default function Page() {
@@ -206,10 +220,10 @@ export default function Page() {
             </span>
       </section>
 
-      <section>
+      <section className="px-8">
         <span className="flex flex-col place-items-center mt-20">
           <h1 className="text-[#1D4ED8] font-bold">OUR PORTFOLIO</h1>
-          <p className="font-extrabold text-3xl">RECENT WORK SHOWCASE</p>
+          <p className="font-extrabold text-3xl mb-4">RECENT WORK SHOWCASE</p>
         </span>
 
         <span className="md:lg:flex items-center w-[80%] m-auto gap-6 mt-28 ">
@@ -233,15 +247,15 @@ export default function Page() {
         </span>
       </section>
 
-      <section>
+      <section className="px-8">
         <span className="flex flex-col place-items-center mt-20">
           <h1 className="text-[#1D4ED8] font-bold">HAPPY CUSTOMERS</h1>
           <p className="font-extrabold text-3xl">WHAT OUR CUSTOMERS SAY</p>
         </span>
 
-        <span className="md:lg:flex items-center w-[80%] m-auto gap-6 mt-32">
-          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center gap-4 mb-8">
-            {/* <img src={rec11} alt="" className="w-40 -mt-24" /> */}
+        <span className="md:lg:flex items-center w-[80%] m-auto gap-6 mt-24">
+          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center mt-24 gap-4 mb-8">
+            <img src={rec11} alt="" className="w-40 -mt-24" />
             <p className="font-bold text-5xl ">Igwe Henry</p>
             <p className="font-medium ">Nursing Assistant </p>
 
@@ -250,11 +264,11 @@ export default function Page() {
               qui esse pariatur duis deserunt mollit dolore cillum minim tempor
               enim.
             </p>
-            {/* <img src={rec14} alt="" /> */}
+            <img src={rec14} alt="" />
           </div>
 
-          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center gap-4 mb-8 bg-[#1D4ED8]">
-            {/* <img src={rec12} alt="" className="w-40 -mt-24 " /> */}
+          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center mt-24 gap-4 mb-8 bg-[#1D4ED8]">
+            <img src={rec12} alt="" className="w-40 -mt-24 " />
             <p className="font-bold text-white text-5xl">Bolu Mufasa</p>
             <p className="font-medium text-white">Sales Personnel </p>
 
@@ -263,11 +277,11 @@ export default function Page() {
               qui esse pariatur duis deserunt mollit dolore cillum minim tempor
               enim.
             </p>
-            {/* <img src={rec14} alt="" /> */}
+            <img src={rec14} alt="" />
           </div>
 
-          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center gap-4 mb-8">
-            {/* <img src={rec13} alt="" className="w-40 -mt-24" /> */}
+          <div className="border border-black rounded-md px-4 py-4 flex flex-col mt-24 items-center gap-4 mb-8">
+            <img src={rec13} alt="" className="w-40 -mt-24" />
             <p className="font-bold text-5xl">Temitayo</p>
             <p className="font-medium ">Marketing Coordinator </p>
 
@@ -276,15 +290,106 @@ export default function Page() {
               qui esse pariatur duis deserunt mollit dolore cillum minim tempor
               enim.
             </p>
-            {/* <img src={rec14} alt="" /> */}
+            <img src={rec14} alt="" />
           </div>
         </span>
-        {/* <span className="flex flex-row gap-2 justify-center mt-10">
+        <span className="flex flex-row gap-2 justify-center mt-10">
           <img src={rec18} alt="" /> <img src={rec18} alt="" />{" "}
           <img src={rec18} alt="" /> <img src={rec18} alt="" />
           <img src={rec18} alt="" />
-        </span> */}
+        </span>
       </section>
+
+      <div className="md:lg:w-full md:lg:flex px-8 md:lg:flex-col mt-40 bg-[#1E2746] gap-20">
+        <div className="md:lg:w-[1168px] ml-[4px] w-full border md:lg:ml-96 border-black bg-[#1D4ED8] px-6 py-6  md:lg:flex md:lg:flex-col gap-8 -m-20  ">
+          <span className="mt-2">
+            <p className="font-medium text-4xl pl-10 text-white">
+              Subscribe To Our News Letter
+            </p>
+            <p className="font-medium text-lg pl-10 text-white capitalize ">
+              Subscribe to our news letter to get <br /> latest news and updates
+            </p>
+          </span>
+
+          {/* <span className="flex justify-end px-8 py-0 ">
+          <input type="mail" value="" placeholder="Enter your mail"  className="w-[510px] border border-white bg-[#1D4ED8] px-2 py-2 flex items-end" /> 
+          </span> */}
+        </div>
+
+        <main className="md:lg:ml-[190px] mt-20 gap-4 md:lg:flex md:lg:flex-col">
+          <span className=" mb-14 md:lg:flex gap-40">
+            <span className="mt-10 gap-4">
+              <img src={rec19} alt="" className="pt-8"/>
+              <p className="text-white font-medium leading-7 pt-4 text-sm">
+                Amet minim mollit non deserunt ullamc est <br /> sit aliqua
+                dolor amet sint. Amet minim <br /> mollit non deserunt ullamco
+                est sit aliqua.
+              </p>
+
+              <br />
+
+              <span className="flex mb-20 gap-4">
+                <img src={rec20} alt="" />
+                <img src={rec21} alt="" />
+                <img src={rec22} alt="" />
+                <img src={rec23} alt="" />
+              </span>
+            </span>
+
+            <span className="">
+              <p className="text-4xl text-white mt-16 font-serif">Services</p>
+              <p className="font-semibold font-mono text-white text-lg">
+                House Cleaning
+              </p>
+              <p className="font-semibold font-mono text-white text-lg">
+                Laundering
+              </p>
+              <p className="font-semibold font-mono text-white text-lg">
+                Gardening
+              </p>
+              <p className="font-semibold font-mono text-white text-lg">
+                Bush Clearing
+              </p>
+            </span>
+
+            <span className="">
+              <p className="text-4xl text-white mt-16 font-serif">
+                Useful Links
+              </p>
+              <p className="font-semibold font-mono text-white text-lg">
+                Home Page
+              </p>
+              <p className="font-semibold font-mono text-white text-lg">
+                About Page
+              </p>
+              <p className="font-semibold font-mono text-white text-lg">
+                Service Page
+              </p>
+              <p className="font-semibold font-mono text-white text-lg">
+                Contact Page
+              </p>
+            </span>
+
+            <span>
+              <p className="text-4xl text-white mt-16 font-serif">Contact</p>
+              <p className="font-semibold font-mono text-white text-lg flex">
+                <BiPhoneCall /> (+234) 804 4458 187
+              </p>
+              <p className="font-semibold font-mono text-white text-lg flex">
+                <AiOutlineMail /> info@email.com
+              </p>
+              <p className="font-semibold font-mono text-white text-lg flex">
+                <CiLocationOn /> 564 Lekki Road, Lagos
+              </p>
+            </span>
+          </span>
+        </main>
+        <span className="md:lg:ml-[190px] mb-8">
+          <p className="text-white pt-8 md:lg:pl-[600px]">
+            &copy; By Wypa @ 2023. All Rights Reserved.. Developed by Emmy.
+          </p>
+        </span>
+      </div>
 
 
         
