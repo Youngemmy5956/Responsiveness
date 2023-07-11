@@ -4,10 +4,19 @@ import rec from "../assets/Rectangle 13.svg";
 import rec1 from "../assets/Rectangle 16.jpg";
 import rec2 from "../assets/Rectangle 15.svg";
 import rec3 from "../assets/Rectangle 14.svg";
-import imgs from "../Assets/Ellipse 4.svg";
-import rec15 from "../Assets/Ellipse 5.svg";
-import rec16 from "../Assets/Ellipse 6.svg";
-import rec17 from "../Assets/Ellipse 7.svg";
+import imgs from "../assets/Ellipse 4.svg";
+import rec15 from "../assets/Ellipse 5.svg";
+import rec16 from "../assets/Ellipse 6.svg";
+import rec17 from "../assets/Ellipse 7.svg";
+import rec4 from "../assets/Rectangle 10.svg";
+import rec7 from "../assets/Rectangle 35.svg";
+import rec5 from "../assets/Rectangle 29.svg";
+import rec6 from "../assets/Rectangle 32.svg";
+import rec18 from "../assets/Group 16.svg";
+import rec8 from "../assets/Rectangle 37.svg";
+import rec10 from "../assets/Rectangle 38.svg";
+import rec9 from "../assets/Rectangle 39.svg";
+
 
 export default function Page() {
   return (
@@ -96,8 +105,8 @@ export default function Page() {
           <p className="font-extrabold text-3xl">WHAT WE ARE OFFERING</p>
         </span>
 
-        <span className="md:lg:flex items-center md:lg:w-[80%]  m-auto gap-6 mt-28">
-          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center gap-4 mb-8">
+        <span className="md:lg:flex items-center md:lg:w-[80%] m-auto gap-6 md:lg:mt-32 ">
+          <div className="border border-black rounded-md px-10 py-4 flex flex-col items-center gap-4 mb-20 mt-24">
             <img src={imgs} alt="" className="w-40 -mt-24" />
             <p className="font-semibold text-[#1D4ED8]">House Cleaning</p>
 
@@ -107,7 +116,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center gap-4 mb-8 bg-[#1D4ED8] text-white">
+          <div className="border border-black rounded-md px-10 py-4 flex flex-col items-center gap-4 mt-24 mb-20 bg-[#1D4ED8] text-white">
             <img src={rec15} alt="" className="w-40 -mt-24" />
             <p className="font-semibold ">Laundering</p>
 
@@ -117,7 +126,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center gap-4 mb-8">
+          <div className="border border-black rounded-md px-10 py-4 flex flex-col items-center gap-4 mt-24 mb-20">
             <img src={rec16} alt="" className="w-40 -mt-24" />
             <p className="font-semibold text-[#1D4ED8]">Gardening</p>
 
@@ -127,7 +136,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="border border-black rounded-md px-4 py-4 flex flex-col items-center gap-4 mb-8">
+          <div className="border border-black rounded-md px-10 py-4 flex flex-col items-center mt-24 gap-4 mb-20">
             <img src={rec17} alt="" className="w-40 -mt-24" />
             <p className="font-semibold text-[#1D4ED8]">Bush Clearing</p>
 
@@ -139,15 +148,15 @@ export default function Page() {
         </span>
       </section>
 
-      <section>
+      <section className="px-8">
         <span className="flex flex-col place-items-center mt-20">
           <h1 className="text-[#1D4ED8] font-bold">OUR TEAM</h1>
-          <p className="font-extrabold text-3xl">OUR EXPERT TEAM MEMBERS</p>
+          <p className="font-extrabold md:lg:text-3xl text-xl mb-4">OUR EXPERT TEAM MEMBERS</p>
         </span>
 
-        <span className="md:lg:flex items-center w-[80%] m-auto gap-6 mt-28">
-          <div className="border border-black rounded-md flex flex-col items-center gap-4 mb-8 shadow-xl md:lg:w-full ">
-            {/* <img src={rec4} alt="" className="w-[100%] shadow-2xl " /> */}
+        <span className="md:lg:flex items-center  w-[80%] m-auto gap-6 mt-28">
+          <div className="border border-black rounded-md flex flex-col items-center gap-4  mb-8 shadow-xl md:lg:w-full ">
+            <img src={rec4} alt="" className="w-[100%] shadow-2xl " />
             <p className="font-bold text-[#1D4ED8] text-3xl shadow-md">
               Ruth Ojo
             </p>
@@ -158,7 +167,7 @@ export default function Page() {
           </div>
 
           <div className="border border-black rounded-md  flex flex-col items-center gap-4 mb-8 w-full">
-            {/* <img src={rec7} alt="" className="w-[100%] shadow-2xl" /> */}
+            <img src={rec7} alt="" className="w-[100%] shadow-2xl" />
             <p className="font-bold text-[#1D4ED8] shadow-md text-3xl">
               Cody Dayo
             </p>
@@ -169,7 +178,7 @@ export default function Page() {
           </div>
 
           <div className="border border-black rounded-md flex flex-col items-center gap-4 mb-8 w-full">
-            {/* <img src={rec5} alt="" className="w-[100%] shadow-2xl" /> */}
+            <img src={rec5} alt="" className="w-[100%] shadow-2xl" />
             <p className="font-bold text-[#1D4ED8] shadow-md text-3xl">
               Damilola Wey
             </p>
@@ -180,7 +189,7 @@ export default function Page() {
           </div>
 
           <div className="border border-black rounded-md  flex flex-col items-center gap-4 mb-8 w-full">
-            {/* <img src={rec6} alt="" className="w-[100%] shadow-2xl " /> */}
+            <img src={rec6} alt="" className="w-[100%] shadow-2xl " />
             <p className="font-bold text-[#1D4ED8] shadow-md text-3xl">
               Ralph Edwards
             </p>
@@ -190,11 +199,11 @@ export default function Page() {
             </p>
           </div>
         </span>
-        {/* <span className="flex flex-row gap-2 justify-center mt-10">
-          <img src={rec18} alt="" /> <img src={rec18} alt="" />{" "}
-          <img src={rec18} alt="" /> <img src={rec18} alt="" />
-          <img src={rec18} alt="" />
-        </span> */}
+            <span className="flex flex-row gap-2 justify-center mt-10">
+            <img src={rec18} alt="" /> <img src={rec18} alt="" />{" "}
+            <img src={rec18} alt="" /> <img src={rec18} alt="" />
+            <img src={rec18} alt="" />
+            </span>
       </section>
 
       <section>
@@ -203,25 +212,25 @@ export default function Page() {
           <p className="font-extrabold text-3xl">RECENT WORK SHOWCASE</p>
         </span>
 
-        <span className="flex items-center w-[80%] m-auto gap-6 mt-28 ">
+        <span className="md:lg:flex items-center w-[80%] m-auto gap-6 mt-28 ">
           <div className="border border-black rounded-md  flex flex-col items-center gap-4 mb-8 w-full ">
-            {/* <img src={rec8} alt="" className="w-[100%] shadow-2xl " /> */}
+            <img src={rec8} alt="" className="w-[100%] shadow-2xl " />
           </div>
 
           <div className="border border-black rounded-md  flex flex-col items-center gap-4 mb-8 w-full ">
-            {/* <img src={rec10} alt="" className="w-[100%] shadow-2xl " /> */}
+            <img src={rec10} alt="" className="w-[100%] shadow-2xl " />
           </div>
 
           <div className="border border-black rounded-md  flex flex-col items-center gap-4 mb-8 w-full ">
-            {/* <img src={rec9} alt="" className="w-[100%] shadow-2xl " /> */}
+            <img src={rec9} alt="" className="w-[100%] shadow-2xl " />
           </div>
         </span>
 
-        {/* <span className="flex flex-row gap-2 justify-center mt-10">
+        <span className="flex flex-row gap-2 justify-center mt-10">
           <img src={rec18} alt="" /> <img src={rec18} alt="" />{" "}
           <img src={rec18} alt="" /> <img src={rec18} alt="" />
           <img src={rec18} alt="" />
-        </span> */}
+        </span>
       </section>
 
       <section>
