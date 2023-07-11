@@ -1,5 +1,6 @@
 import Home from "./components/Home";
 import Page from "./components/Page";
+import Tutorial from "./components/Tutorial";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import logo from "../src/assets/Group 1707477972.svg";
@@ -29,6 +30,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/page" element={<Page />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/tutorial" element={<Tutorial />} />
           </Routes>
         </BrowserRouter>
       )}
