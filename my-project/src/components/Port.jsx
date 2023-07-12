@@ -7,6 +7,7 @@ import { BsTwitter } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { useState } from "react";
 import { BiArrowBack } from "react-icons/bi";
+// import { GrView } from "react-icons/gr";
 
 export default function Port() {
   const [loginPage, setLoginPage] = useState({
@@ -26,21 +27,21 @@ export default function Port() {
               <img src={rec18} alt="" className="" />
                <img src={rec18} alt="" />{" "}
             </span>
-            <h1 className="text-2xl text-center pt-8">My-Portfolio</h1>
+            <h1 className="md:lg:text-2xl text-5xl text-center pt-8">My-Portfolio</h1>
           </span>
           <hr className="p-[2px] bg-[#1D4ED8]" />
 
           <img
             src={hero}
             alt=""
-            className="border-2 bg-[#1D4ED8] border-slate-50 rounded-[100%] w-20 mb-4 mt-4 ml-[40%]"
+            className="border-2 bg-[#1D4ED8] border-slate-50 rounded-[100%] md:lg:w-20 w-[23%] mb-4 mt-4 ml-[40%]"
           />
 
           <span className="text-center">
-            <h1 className="text-xl font-mono font-semibold animate-pulse">
+            <h1 className="md:lg:text-xl text-5xl font-mono font-semibold animate-pulse">
               Nwamini Emmanuel O.
             </h1>
-            <h1 className="text-base font-medium">Mern/Laravel Developer</h1>
+            <h1 className="md:lg:text-base text-3xl font-medium">Mern/Laravel Developer</h1>
           </span>
 
           <span>
@@ -124,14 +125,14 @@ export default function Port() {
         </div>
       )}
       {loginPage.page2 && (
-        <div className="md:lg:w-[30%] w-[100%] rounded-xl bg-black text-slate-300 border-slate-50 border-4 md:lg:shadow-md shadow-xl md:lg:h-[70vh] h-[80vh] md:lg:ml-[35%]  ">
+        <div className="md:lg:w-[30%] w-[100%] rounded-xl py-4 bg-black text-slate-300 border-slate-50 border-4 md:lg:shadow-md shadow-xl md:lg:h-[70vh] h-[80vh] md:lg:ml-[35%]  ">
           <span className=" flex gap-32">
-            <span className="flex flex-row gap-2 justify-center mt-10 pl-6">
+            <span className="flex flex-row gap-2 justify-center my-4 pl-6">
               <img src={rec18} alt="" /> 
               <img src={rec18} alt="" />
               <img src={rec18} alt="" />
             </span>
-            <h1 className="text-center flex flex-row-reverse text-2xl pt-8">
+            <h1 className="text-center flex flex-row-reverse text-2xl py-4">
               <BiArrowBack
                 className="cursor-pointer mt-2"
                 onClick={() =>
@@ -143,22 +144,90 @@ export default function Port() {
           </span>
           <hr className="p-[2px] bg-[#1D4ED8]" />
                  <span className="w-full flex gap-2 px-4 mt-2">
-                    <div className="w-1/3 border-2 border-slate-50">
+                    <div className="w-1/3 border-2 px-2 border-slate-50">
                         <img src={hero} alt="" />
+                        <span>
+                      <h1 className="text-white text-xs mt-4 text-center font-bold">
+                        Wypa cleaning service
+                      </h1>
+                      <h1 className="text-white text-sm text-center">
+                        React | Redux | Tailwind
+                      </h1>
+                    </span>
+                  
                     </div>
 
-                    <div className="w-1/3 border-2 border-slate-50">
+                    <div className="w-1/3 border-2 px-2 border-slate-50">
                         <img src={hero} alt="" />
+                        <span>
+                      <h1 className="text-white text-xs mt-4 text-center font-bold">
+                        Wypa cleaning service
+                      </h1>
+                      <h1 className="text-white text-sm text-center">
+                        React | Redux | Tailwind
+                      </h1>
+                    </span>
+                  
                     </div>
 
-                    <div className="w-1/3 border-2 border-slate-50">
+                    <div className="w-1/3 border-2 px-2 border-slate-50">
                         <img src={hero} alt="" />
+                        <span>
+                      <h1 className="text-white text-xs mt-4 text-center font-bold">
+                        Wypa cleaning service
+                      </h1>
+                      <h1 className="text-white text-sm text-center">
+                        React | Redux | Tailwind
+                      </h1>
+                    </span>
+                  
+                    </div>
+                 </span>
+
+                 <span className="w-full flex gap-2 px-4 mt-4">
+                    <div className="w-1/3 border-2 px-2 border-slate-50">
+                        <img src={hero} alt="" />
+                    <span>
+                      <h1 className="text-white text-xs mt-4 text-center font-bold">
+                        Wypa cleaning service
+                      </h1>
+                      <h1 className="text-white text-sm text-center">
+                        React | Redux | Tailwind
+                      </h1>
+                    </span>
+                  
+                    </div>
+
+                    <div className="w-1/3 border-2 px-2 border-slate-50">
+                        <img src={hero} alt="" />
+                        <span>
+                      <h1 className="text-white text-xs mt-4 text-center font-bold">
+                        Wypa cleaning service
+                      </h1>
+                      <h1 className="text-white text-sm text-center">
+                        React | Redux | Tailwind
+                      </h1>
+                    </span>
+                  
+                    </div>
+
+                    <div className="w-1/3 border-2 px-2 border-slate-50">
+                        <img src={hero} alt="" />
+                        <span>
+                      <h1 className="text-white text-xs mt-4 text-center font-bold">
+                        Wypa cleaning service
+                      </h1>
+                      <h1 className="text-white text-sm text-center">
+                        React | Redux | Tailwind
+                      </h1>
+                    </span>
+                  
                     </div>
                  </span>
          
 
          
-          <span className="flex gap-4 pt-6 mb-6 pl-12">
+          <span className="flex gap-4 pt-2 mb-6 pl-12">
             <span>
               <h1 className="text-xl font-mono font-semibold ">
                 Social links:
@@ -197,12 +266,6 @@ export default function Port() {
                 </h1>
               </a>
             </span>
-          </span>
-
-          <span className="">
-            <a href="" className="text-xl font-mono pl-12">
-              Link to my resume: Resume
-            </a>
           </span>
 
           <div className="flex justify-center mt-8">
